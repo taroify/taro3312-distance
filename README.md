@@ -25,14 +25,14 @@ export default function Index() {
   height: 50px * 2;
 }
 ```
-在**安卓真机**测试时，向下滑动时会存在卡顿问题。
+在**安卓真机**测试时，向下滑动时会存在卡顿问题。iOS真机测试没有问题。
 
 ### 卡帧演示
 
-![a](https://raw.githubusercontent.com/taroify/taro3312-distance/main/images/a.gif)
+<img src="https://raw.githubusercontent.com/taroify/taro3312-distance/main/images/a.gif" width="300" />
 
 ### 非卡帧演示
 
-![b](https://raw.githubusercontent.com/taroify/taro3312-distance/main/images/b.gif)
+<img src="https://raw.githubusercontent.com/taroify/taro3312-distance/main/images/b.gif" width="300" />
 
 当触屏向下滑动时会卡顿，但是当先向上在向下滑动时就不卡顿了。
